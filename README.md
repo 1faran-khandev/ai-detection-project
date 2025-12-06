@@ -1,16 +1,83 @@
-# React + Vite
+# Smart Sales Forecasting (Mini SaaS)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A lightweight, modern forecasting dashboard that helps businesses predict revenue, track sales patterns, and avoid stock-outs using clean UI, instant data upload, and machine-learning powered insights.
 
-Currently, two official plugins are available:
+# Overview
+Most businesses collect tons of sales data… but don’t actually use it to make daily decisions.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project fixes that.
 
-## React Compiler
+Smart Sales Forecasting gives teams a simple command center where they can upload their sales history and instantly see trends, seasonality, and projected revenue — all without touching code.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+This is a build-in-public project where I’m sharing each step of bringing a real forecasting product to life.
 
-## Expanding the ESLint configuration
+# Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+#Frontend
+
+React (Vite)
+Tailwind CSS
+Recharts (for data visualization)
+File Upload + Validation Modules
+
+# Backend / Forecasting (Upcoming)
+
+Python / FastAPI
+Forecasting models (ARIMA, Prophet)
+Trend / seasonality extraction
+CSV preprocessing engine
+
+Features (In Progress)
+✅ Core Setup Complete
+
+Project bootstrapped with Vite + React
+
+Tailwind configured
+
+Clean folder structure
+
+# Coming Next
+
+CSV Upload with instant schema preview
+
+Data quality check (missing values, anomalies)
+
+Automatic forecasting engine
+
+7-day, 30-day, 90-day revenue predictions
+
+Inventory stock-out alerts
+
+Product-level trend analysis
+
+Modern dashboard UI
+
+Exportable insights
+
+# Why This Project Matters
+
+Sales teams usually rely on gut feeling.
+This tool gives them clarity, not complexity.
+
+It helps businesses answer questions like:
+
+What will our revenue look like next month?
+
+Which product is running low?
+
+Where are we leaking margin?
+
+# Build Status
+
+Current Stage: UI foundation + GitHub setup
+Next Stage: CSV → Preview → Forecast Workflow
+
+I’m intentionally building this slowly and cleanly — step by step — so it can grow into a real production-ready tool.
+
+# Contact
+
+If you want help building dashboards, AI tools, or predictive models for your business, reach out through GitHub or LinkedIn.
+
+Support
+
+If you find this project interesting, consider giving it a star on GitHub, it helps a lot!
